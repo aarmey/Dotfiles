@@ -1,0 +1,5 @@
+# Transduction
+Host transd
+    HostName transduction.mit.edu
+    Port 22
+    User asm

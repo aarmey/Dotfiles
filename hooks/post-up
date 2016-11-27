@@ -1,0 +1,6 @@
+
+echo "Applying MacOS defaults"
+bash ~/.bin/osxdefaults.sh
+
+echo "Copying settings to Application Support"
+cp -rfv ../.copy/* ~/Library/Application\ Support/
