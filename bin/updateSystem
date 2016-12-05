@@ -21,6 +21,8 @@ echo "Updating Fiji packages"
 (set -x; brew cleanup;)
 (set -x; brew cask cleanup;)
 
+apm update -c false
+
 softwareupdate -l
 
 rm -rf ~/.Trash/*
