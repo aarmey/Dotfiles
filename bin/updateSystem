@@ -8,7 +8,7 @@ tlmgr update --self
 tlmgr update --all
 
 echo "Updating R packages"
-/Library/Frameworks/R.framework/Versions/Current/Resources/R -q -e "update.packages(repos='http://cran.rstudio.com/', ask=FALSE)"
+/Library/Frameworks/R.framework/Versions/Current/Resources/R -q -e "update.packages(repos='http://cran.rstudio.com/', ask=FALSE, type='binary')"
 
 echo "Updating Fiji packages"
 /Applications/Fiji.app/Contents/MacOS/ImageJ-macosx --update update
