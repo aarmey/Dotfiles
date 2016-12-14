@@ -52,7 +52,7 @@
 \newcommand{\person}{Aaron S. Meyer}
 \newcommand{\ID}{Research Fellow}
 
-\newcommand{\sigImg}{\includegraphics[width=1.5in]{/Users/asm/Library/texmf/tex/xelatex/signature.pdf}}
+\newcommand{\sigImg}{\includegraphics[width=1.5in]{/Users/asm/.sig/signature.pdf}}
 
 \newsavebox{\headone}
 \sbox{\headone}{\parbox[t]{2.5in}{\boldfont{Massachusetts Institute of Technology}}}
