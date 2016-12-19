@@ -42,7 +42,7 @@
   {\raggedright \toname \\ \toaddress \par}%
   \vspace{2\parskip}%
   #1\par\nobreak\reversemarginpar\marginpar{\hspace*{.35in}\raisebox{.2in}{\scalebox{.33}{\includegraphics*{/Users/asm/Library/texmf/tex/xelatex/mitlogo.pdf}}}\normalmarginpar}}
-\renewcommand*{\signature}[1]{\def\fromsig{\italicfont #1}}
+\def\fromsig{\italicfont Aaron S. Meyer}
 \newcommand{\officename}{Koch Institute for Integrative\\ Cancer Research}
 \newcommand{\associateofficename}{Associate Office Name}
 \newcommand{\roomnumber}{76-361F}
