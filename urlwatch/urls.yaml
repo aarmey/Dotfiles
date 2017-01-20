@@ -1,0 +1,8 @@
+name: "UW"
+url: "http://depts.washington.edu/bioe/uw-bioengineering-seminars/department-seminars/"
+filter: html2text
+---
+name: "UCSD"
+url: "http://be.ucsd.edu/more-seminars"
+filter: html2text
+---
