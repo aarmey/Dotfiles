@@ -6,3 +6,6 @@ name: "UCSD"
 url: "http://be.ucsd.edu/more-seminars"
 filter: html2text
 ---
+name: "UCLA"
+url: "http://www.bioeng.ucla.edu/events/"
+filter: html2text
