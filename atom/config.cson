@@ -4,7 +4,7 @@
   core:
     telemetryConsent: "limited"
     themes: [
-      "one-light-ui"
+      "atom-light-ui"
       "one-light-syntax"
     ]
   editor:
