@@ -19,6 +19,8 @@ brew bundle check --global
 
 brew bundle cleanup --global --force
 
+brew bundle --global
+
 apm update -c false
 
 mas upgrade
