@@ -1,0 +1,8 @@
+## some useful aliases
+alias ls "ls -h"
+alias mirror "mirror -v"
+alias sync "mirror -R -v -n"
+
+# lftp has the following settable variables (you can also use 'set -a' to see all variables and their values):
+# save plain text passwords in ~/.lftp/bookmarks on 'bookmark add' command. Off by default.
+set bmk:save-passwords yes
