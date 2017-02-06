@@ -9,3 +9,7 @@ filter: html2text
 name: "UCLA"
 url: "http://www.bioeng.ucla.edu/events/"
 filter: html2text
+---
+name: "UVA"
+url: "https://calendar.google.com/calendar/ical/bmeuva%40gmail.com/public/basic.ics"
+filter: ical2text
