@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export GHBU_UNAME=thanatosmin
+export GHBU_ORG=users/thanatosmin
+export GHBU_BACKUP_DIR=.
+
+gitBackup
+
+export GHBU_ORG=orgs/meyer-lab
+
+gitBackup
