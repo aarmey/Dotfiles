@@ -14,6 +14,7 @@
     userId: "fc86682d-56cf-039b-067c-b246bfdcc993"
   "git-projects":
     rootPath: "/Users/asm/Documents/Code"
+  linter: {}
   welcome:
     showOnStartup: false
 ".plain.text":
