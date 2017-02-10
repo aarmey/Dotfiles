@@ -54,10 +54,13 @@ cask 'rescuetime'
 cask 'rstudio'
 cask 'texpad'
 cask 'r-app'
+cask 'papers'
+cask 'cellprofiler'
 cask 'scrivener'
 cask 'selfcontrol'
 cask 'skype'
 cask 'sourcetree'
+cask 'sequel-pro'
 cask 'synology-photo-station-uploader'
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Ulysses', id: 623795237
