@@ -6,7 +6,7 @@
     telemetryConsent: "limited"
     themes: [
       "atom-light-ui"
-      "one-light-syntax"
+      "atom-light-syntax"
     ]
   editor:
     fontSize: 11
