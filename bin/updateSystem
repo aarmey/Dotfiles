@@ -17,11 +17,11 @@ echo "Updating Fiji packages"
 
 brew update
 
-brew bundle check --global
+brew bundle --global
 
 brew bundle cleanup --global --force
 
-brew bundle --global
+brew cleanup
 
 apm update -c false
 
