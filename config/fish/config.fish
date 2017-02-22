@@ -1,5 +1,7 @@
 set fish_greeting ""
 set -gx PATH ~/.bin $PATH
+set -gx PATH ~/node_modules/.bin $PATH
+
 
 alias selfcontrol "sudo /Applications/SelfControl.app/Contents/MacOS/org.eyebeam.SelfControl (id -u (whoami)) --install"
 
