@@ -1,4 +1,3 @@
-set fish_greeting ""
 set -gx PATH ~/.bin $PATH
 set -gx PATH ~/node_modules/.bin $PATH
 
