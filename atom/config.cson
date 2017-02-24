@@ -22,6 +22,8 @@
   "platformio-ide-terminal":
     style:
       fontFamily: "Source Code Pro for Powerline"
+  "spell-check":
+    addKnownWords: true
   welcome:
     showOnStartup: false
 ".plain.text":
