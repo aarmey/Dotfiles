@@ -19,6 +19,9 @@
   "git-projects":
     rootPath: "/Users/asm/Documents/Code"
   linter: {}
+  "platformio-ide-terminal":
+    style:
+      fontFamily: "Source Code Pro for Powerline"
   welcome:
     showOnStartup: false
 ".plain.text":
