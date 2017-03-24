@@ -56,7 +56,6 @@ cask 'synology-photo-station-uploader'
 cask 'texpad'
 mas 'Ulysses', id: 623795237
 mas 'Numbers', id: 409203825
-mas 'Microsoft Remote Desktop', id: 715768417
 mas '1Password', id: 443987910
 mas 'Pages', id: 409201541
 mas 'Xcode', id: 497799835
