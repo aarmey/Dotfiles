@@ -19,6 +19,12 @@
   "git-projects":
     rootPath: "/Users/asm/Documents/Code"
   linter: {}
+  "linter-pylint":
+    disableTimeout: true
+    rcFile: "%p/.pylintrc"
+  "linter-ui-default":
+    panelHeight: 179
+    showPanel: true
   "linter-write-good":
     severityLevel: "Warning"
   "platformio-ide-terminal":
@@ -26,6 +32,13 @@
       fontFamily: "Source Code Pro for Powerline"
   "spell-check":
     addKnownWords: true
+    knownWords: [
+      "multimerization"
+      "oligomerization"
+      "deconvolves"
+      "multimerized"
+      "multimer"
+    ]
   welcome:
     showOnStartup: false
 ".plain.text":
