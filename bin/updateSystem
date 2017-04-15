@@ -1,8 +1,6 @@
 #! /bin/bash
 
 duti -s com.vallettaventures.Texpad tex all
-duti -s com.github.atom md all
-duti -s com.github.atom markdown all
 
 if hash tlmgr 2>/dev/null; then
   tlmgr update --self
@@ -24,8 +22,6 @@ brew bundle --global
 brew bundle cleanup --global --force
 
 brew cleanup
-
-apm update -c false
 
 mas upgrade
 
