@@ -5,6 +5,7 @@ bash ~/.bin/osxdefaults.sh
 echo "Copying settings to Application Support"
 ln -fs  ~/.dotfiles/.copy/texmf ~/Library/
 ln -fs  ~/.dotfiles/.copy/"Application Support"/Übersicht ~/Library/"Application Support"/
+ln -fs  ~/.dotfiles/.copy/"Application Support"/User ~/Library/"Application Support"/"Sublime Text 3"/Packages/
 
 HOST=$(hostname)
 
