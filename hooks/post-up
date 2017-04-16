@@ -2,8 +2,5 @@
 #echo "Applying MacOS defaults"
 #bash ~/.bin/osxdefaults.sh
 
-echo "Copying settings to Application Support"
-ln -fs  ~/.dotfiles/.copy/texmf ~/Library/
-
 # Running mackup
-mackup restore
+mackup restore -f

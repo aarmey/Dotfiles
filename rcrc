@@ -1,2 +1,2 @@
 TAGS="transduction macbook"
-EXCLUDES="README.md LICENSE bootstrap.sh mackup"
+EXCLUDES="README.md LICENSE bootstrap.sh mackup-backup"
