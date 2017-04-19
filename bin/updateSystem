@@ -1,6 +1,9 @@
 #! /bin/bash
 
 duti -s com.vallettaventures.Texpad tex all
+duti -s com.sublimetext.3 public.plain-text all
+duti -s com.sublimetext.3 md all
+duti -s com.sublimetext.3 markdown all
 
 if hash tlmgr 2>/dev/null; then
   tlmgr update --self
