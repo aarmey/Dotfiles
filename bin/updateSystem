@@ -13,7 +13,7 @@ fi
 echo "Updating R packages"
 R -q -e "update.packages(repos='http://cran.rstudio.com/', ask=FALSE, type='binary')"
 
-if hash /Applications/Fiji.app/Contents/MacOS/ImageJ-macosx 2>/dev/null; then
+if [ -f /Applications/Fiji.app/Contents/MacOS/ImageJ-macosx ]; then
   echo "Updating Fiji packages"
   /Applications/Fiji.app/Contents/MacOS/ImageJ-macosx --update update
 fi
