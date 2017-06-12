@@ -1,0 +1,5 @@
+// GitGutter Settings - User
+{
+	"git_binary": "/usr/local/bin/git",
+	"diff_popup_default_mode": "diff"
+}

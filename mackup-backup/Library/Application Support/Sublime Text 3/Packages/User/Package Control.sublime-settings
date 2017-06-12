@@ -6,14 +6,13 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"Anaconda",
 		"Boxy Theme",
 		"CiteBibtex",
 		"Fix Mac Path",
 		"Git",
 		"GitGutter",
 		"Glue",
-		"Package Control",
-		"Pandoc",
-		"Terminal"
+		"Package Control"
 	]
 }
