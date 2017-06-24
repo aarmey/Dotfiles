@@ -2,6 +2,7 @@
     Anaconda user settings
 */
 {
+     "python_interpreter": "/usr/local/bin/python3",
 	/*
 
         If anaconda_gutter_marks is true, this determines what theme is used.
