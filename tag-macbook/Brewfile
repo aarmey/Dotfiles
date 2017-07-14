@@ -13,6 +13,8 @@ brew 'mas'
 brew 'nmap'
 brew 'szip'
 brew 'mackup'
+brew 'syncthing'
+brew 'syncthing-inotify'
 brew 'ssh-copy-id'
 brew 'python3', args: ['without-gdbm', 'without-readline', 'without-sqlite']
 brew 'tmux'
@@ -44,7 +46,6 @@ cask 'crashplan'
 cask 'skype'
 cask 'sourcetree'
 cask 'synology-photo-station-uploader'
-cask 'synology-cloud-station-drive'
 cask 'texpad'
 mas 'Ulysses', id: 623795237
 mas 'Numbers', id: 409203825
