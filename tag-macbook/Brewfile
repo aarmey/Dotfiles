@@ -18,7 +18,7 @@ brew 'syncthing-inotify'
 brew 'ssh-copy-id'
 brew 'python3', args: ['without-gdbm', 'without-readline', 'without-sqlite']
 brew 'tmux'
-brew 'homebrew/science/hdf5'
+brew 'hdf5'
 brew 'homebrew/science/nlopt'
 brew 'thoughtbot/formulae/rcm'
 cask 'bibdesk'

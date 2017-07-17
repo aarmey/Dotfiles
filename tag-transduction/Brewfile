@@ -29,7 +29,7 @@ brew 'par2'
 brew 'python3', args: ['without-gdbm', 'without-readline', 'without-sqlite']
 brew 'ssh-copy-id'
 brew 'tmux'
-brew 'homebrew/science/hdf5'
+brew 'hdf5'
 brew 'homebrew/science/nlopt'
 brew 'thoughtbot/formulae/rcm'
 cask 'bibdesk'
