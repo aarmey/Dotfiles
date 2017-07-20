@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export GHBU_UNAME=thanatosmin
-export GHBU_ORG=users/thanatosmin
+export GHBU_UNAME=aarmey
+export GHBU_ORG=users/aarmey
 export GHBU_BACKUP_DIR=.
 
 gitBackup
