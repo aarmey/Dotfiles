@@ -5,5 +5,8 @@
 	[
 		"Vintage"
 	],
-	"theme": "Boxy Yesterday.sublime-theme"
+	"theme": "Boxy Yesterday.sublime-theme",
+	"open_externally_patterns": [
+		"*.pdf"
+	]
 }
