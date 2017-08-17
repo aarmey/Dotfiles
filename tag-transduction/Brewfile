@@ -59,7 +59,6 @@ cask 'sourcetree'
 cask 'sequel-pro'
 cask 'synology-photo-station-uploader'
 mas 'Microsoft Remote Desktop', id: 715768417
-mas 'Ulysses', id: 623795237
 mas 'Numbers', id: 409203825
 mas '1Password', id: 443987910
 mas 'Pages', id: 409201541
