@@ -1,0 +1,102 @@
+%!TEX program = xelatex 
+% Scott's letterhead template. Requires that Miami logo and signature file be
+% installed within the LaTeX directory structure. The "letter" class is used
+% because it allows for spacing between paragraphs, but properly line breaks at
+% the end of paragraphs (the articles class tends to avoid full lines at the
+% ends of paragraphs, for some reason).
+
+\documentclass[11pt]{letter}
+\usepackage[letterpaper, margin=1in]{geometry}
+
+\usepackage{fixltx2e}
+
+% Adds microtypography features: character protrusion, for XeTeX.
+\usepackage{microtype, graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Allows links.
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[xetex, bookmarks, colorlinks, breaklinks]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=NavyBlue, linkcolor=NavyBlue}
+
+\urlstyle{rm}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\frenchspacing{}        % Remove extra spaces after periods.
+\pagestyle{empty}       % Remove page numbers.
+
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}  % Sets quotation marks.
+\setromanfont{Helvetica Neue}
+\setsansfont[BoldFont={Helvetica Neue Bold}]{Helvetica Neue}
+\setmonofont[Scale=MatchLowercase]{Helvetica Neue}
+
+% From default template
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\fancyfoot[C]{Confidential}
+
+\newcommand\shyp{\-}
+
+\newcommand{\header}[0]{
+    {\hypersetup{hidelinks}
+    \noindent
+    \parbox[b][0.625in][t]{6.5in}{
+        \vspace{-0.375in}
+        \parbox[b][0.625in][t]{3.74in}
+            {\href{http://www.miamioh.edu}
+            {\includegraphics[width=1in]{/Users/asm/Library/texmf/tex/xelatex/uclalogo.pdf}}}\hfill
+        \parbox[b][0.625in][t]{1.72in}{
+            \setlength{\baselineskip}{9pt}
+            \fontsize{7pt}{7pt}{
+                \fontspec{Helvetica}
+                \href{http://www.hartleygroup.org}{\textbf{C.\ SCOTT HARTLEY}}\\
+                \href{http://chemistry.miamioh.edu}{Department of Chemistry %
+                    \& Biochemistry}\vspace{6pt}\\
+                651 E. High St.\\
+                Oxford, Ohio 45056-1465\\
+                (513) 529-1731\\
+                (513) 529-5715 Fax\\
+                \href{mailto:scott.hartley@miamioh.edu}{scott.hartley@miamioh.edu}
+                }
+            }
+        }}
+    }
+
+$if(draft)$
+\usepackage{draftwatermark}
+\SetWatermarkLightness{0.9}
+$endif$
+
+\begin{document}
+
+\header
+
+$body$
+
+
+\begin{minipage}[t]{6.5in}
+Sincerely,\\
+$if(draft)$
+    \\
+$else$
+    \vspace{-0.2in}\includegraphics{/Users/asm/.sig/signature.pdf}
+$endif$
+\\
+Aaron S. Meyer\\
+$sig.post$
+\end{minipage}
+
+$if(cc)$
+    cc: $for(cc)$$cc$$sep$, $endfor$
+$endif$
+
+$if(ps)$
+    $ps$
+$endif$
+
+\end{document}
