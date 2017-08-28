@@ -17,8 +17,6 @@ brew 'pandoc-crossref'
 brew 'lftp'
 brew 'mackup'
 brew 'exa'
-brew 'syncthing'
-brew 'syncthing-inotify'
 brew 'ssh-copy-id'
 brew 'python3', args: ['without-gdbm', 'without-readline', 'without-sqlite']
 brew 'tmux'
@@ -54,7 +52,6 @@ cask 'texpad'
 mas 'Numbers', id: 409203825
 mas '1Password', id: 443987910
 mas 'Pages', id: 409201541
-mas 'Xcode', id: 497799835
 mas 'Keynote', id: 409183694
 mas 'Day One', id: 1055511498
 mas 'Tweetbot', id: 557168941
