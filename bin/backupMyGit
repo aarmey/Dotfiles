@@ -9,3 +9,11 @@ gitBackup
 export GHBU_ORG=orgs/meyer-lab
 
 gitBackup
+
+export GHBU_ORG=orgs/bioe-ml-w18
+
+gitBackup
+
+export GHBU_ORG=orgs/AECCSB
+
+gitBackup
