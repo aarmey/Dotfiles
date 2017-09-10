@@ -1,9 +1,15 @@
 # Transduction
 Host transd
-    HostName transduction.mit.edu
+    HostName mactrans.seas.ucla.edu
     Port 22
     User asm
     IdentityFile ~/.ssh/is_ssh
+
+Host winet
+	HostName transduc.seas.ucla.edu
+	Port 22
+	User aaron
+	IdentityFile ~/.ssh/is_ssh
 
 Host *
    UseKeychain yes
