@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"Anaconda",
 		"Boxy Theme",
 		"CiteBibtex",
 		"Git",
@@ -14,8 +13,12 @@
 		"LanguageTool",
 		"Non Text Files",
 		"Package Control",
+		"ProjectManager",
 		"SideBarEnhancements",
 		"Stan",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-pyflakes",
 		"Terminal"
 	]
 }
