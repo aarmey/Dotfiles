@@ -26,6 +26,7 @@ brew 'thoughtbot/formulae/rcm'
 brew 'tmux'
 cask 'arq'
 cask 'bibdesk'
+cask 'mendeley-desktop'
 cask 'cyberduck'
 cask 'dropbox'
 cask 'findings'
@@ -52,7 +53,6 @@ cask 'sublime-text'
 cask 'synology-photo-station-uploader'
 cask 'texpad'
 cask 'ubersicht'
-cask 'zotero'
 mas '1Password', id: 443987910
 mas 'Day One', id: 1055511498
 mas 'Keynote', id: 409183694
