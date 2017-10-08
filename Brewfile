@@ -31,10 +31,8 @@ cask 'cyberduck'
 cask 'findings'
 cask 'grandperspective'
 cask 'java'
-cask 'logitech-options'
 cask 'lyx'
 cask 'mactex'
-cask 'nvidia-web-driver'
 cask 'manuscripts'
 cask 'nteract'
 cask 'omnifocus'
@@ -50,7 +48,6 @@ cask 'skype'
 cask 'slack'
 cask 'spotify'
 cask 'sublime-text'
-cask 'synology-photo-station-uploader'
 cask 'texpad'
 cask 'ubersicht'
 mas '1Password', id: 443987910
@@ -60,3 +57,4 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Tweetbot', id: 557168941
 mas 'feedly. Read more, know more.', id: 865500966
+mas 'Xcode', id: 497799835
