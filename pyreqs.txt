@@ -9,3 +9,4 @@ seaborn
 tqdm
 scikit-learn
 Theano
+flake8
