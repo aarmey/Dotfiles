@@ -5,18 +5,12 @@ duti -s com.sublimetext.3 public.plain-text all
 duti -s com.sublimetext.3 md all
 duti -s com.sublimetext.3 markdown all
 duti -s io.nteract.nteract ipynb all
+duti -s com.sublimetext.3 sublime-workspace all
+duti -s com.sublimetext.3 sublime-project all
 
 if hash tlmgr 2>/dev/null; then
   tlmgr update --self
   tlmgr update --all --reinstall-forcibly-removed
-fi
-
-echo "Updating R packages"
-R -q -e "update.packages(repos='http://cran.rstudio.com/', ask=FALSE, type='binary')"
-
-if [ -f /Applications/Fiji.app/Contents/MacOS/ImageJ-macosx ]; then
-  echo "Updating Fiji packages"
-  /Applications/Fiji.app/Contents/MacOS/ImageJ-macosx --update update
 fi
 
 brew update

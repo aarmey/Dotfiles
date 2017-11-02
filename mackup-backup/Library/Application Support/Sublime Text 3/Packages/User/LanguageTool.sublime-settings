@@ -1,0 +1,5 @@
+{
+"languagetool_jar": "/usr/local/Cellar/languagetool/3.9/libexec/languagetool.jar",
+"languagetool_server_local": "http://localhost:8081/v2/check",
+"languagetool_server_remote": "https://languagetool.org/api/v2/check",
+}
