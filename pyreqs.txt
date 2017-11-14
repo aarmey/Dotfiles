@@ -12,3 +12,8 @@ Theano
 flake8
 emcee
 h5py
+memoize2
+pytablewriter
+svgutils
+nose-timer
+nosexcover
