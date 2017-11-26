@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
-	"font_size": 11,
 	"font_face": "Source Code Pro",
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"Vintage"
