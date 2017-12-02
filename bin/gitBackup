@@ -41,7 +41,9 @@ check mkdir -p $GHBU_BACKUP_DIR
 
 $GHBU_SILENT || echo -n "Fetching list of repositories for ${GHBU_ORG}..."
 
-REPOLIST=`check curl -q -s ${GHBU_API}/${GHBU_ORG}/repos\?per_page=200 | check grep "\"name\"" | check awk -F': "' '{print $2}' | check sed -e 's/",//g'`
+REQCONTENT=`curl -q -s ${GHBU_API}/${GHBU_ORG}/repos\?per_page=200 | check jq '.[] | .name'`
+
+REPOLIST=`check echo "${REQCONTENT}" | check sed -e 's/\"//g'`
 
 $GHBU_SILENT || echo "found `echo $REPOLIST | wc -w` repositories."
 
