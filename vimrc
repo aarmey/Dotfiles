@@ -10,6 +10,15 @@ Plug 'airblade/vim-gitgutter'
 " Command line colors
 Plug 'itchyny/lightline.vim'
 
+" Indent Guides
+Plug 'nathanaelkane/vim-indent-guides'
+
+" Table mode for markdown
+Plug 'dhruvasagar/vim-table-mode'
+
+" Autocomplete
+Plug 'Valloric/YouCompleteMe'
+
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 call plug#end()
