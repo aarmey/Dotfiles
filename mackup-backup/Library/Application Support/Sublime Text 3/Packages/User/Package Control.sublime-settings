@@ -21,6 +21,7 @@
 		"Stan",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
+		"SublimeLinter-cppcheck",
 		"SublimeLinter-pyflakes",
 		"Terminal"
 	]
