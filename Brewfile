@@ -9,6 +9,7 @@ brew 'fdupes'
 brew 'fish'
 brew 'git'
 brew 'git-lfs'
+brew 'doxygen'
 brew 'hdf5'
 brew 'graphviz'
 brew 'jq'
@@ -63,4 +64,3 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Tweetbot', id: 557168941
 mas 'feedly. Read more, know more.', id: 865500966
-mas 'Xcode', id: 497799835
