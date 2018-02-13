@@ -4,7 +4,7 @@
 # Using icalBuddy found here: http://hasseg.org/icalBuddy/
 
 # This command shows all of your events for today and tomorrow
-command: "'/usr/local/bin/icalBuddy' -ec 'Found in Natural Language' -sd -n eventsToday 2>/dev/null"
+command: "'/usr/local/bin/icalBuddy' -eep 'url,attendees' -ec 'Found in Natural Language' -sd -n eventsToday 2>/dev/null"
 
 # the refresh frequency is 1 hour
 refreshFrequency: 3600000
