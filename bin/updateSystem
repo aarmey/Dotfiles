@@ -7,6 +7,7 @@ duti -s com.sublimetext.3 markdown all
 duti -s io.nteract.nteract ipynb all
 duti -s com.sublimetext.3 sublime-workspace all
 duti -s com.sublimetext.3 sublime-project all
+duti -s com.sublimetext.3 coffee all
 
 if hash tlmgr 2>/dev/null; then
   tlmgr update --self

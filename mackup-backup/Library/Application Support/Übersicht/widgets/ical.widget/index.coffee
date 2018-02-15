@@ -1,8 +1,3 @@
-# A widget that displays your calendar events for today and tomorrow
-# Made by David Brooks
-# First time ever writing in JavaScript
-# Using icalBuddy found here: http://hasseg.org/icalBuddy/
-
 # This command shows all of your events for today and tomorrow
 command: "'/usr/local/bin/icalBuddy' -eep 'url,attendees' -ec 'Found in Natural Language' -sd -n eventsToday 2>/dev/null"
 
@@ -21,6 +16,7 @@ style: """
     display: block
     font-size: 12px
     font-weight: 300
+    width: 800px
 """
 
 renderLine: (string) -> """
