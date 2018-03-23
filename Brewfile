@@ -23,6 +23,7 @@ brew 'poppler'
 brew 'sundials', args: ['without-mpi']
 brew 'mas'
 brew 'nmap'
+brew 'mosh'
 brew 'r'
 brew 'languagetool'
 brew 'pandoc'
