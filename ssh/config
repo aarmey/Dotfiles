@@ -11,6 +11,12 @@ Host winet
 	User aaron
 	IdentityFile ~/.ssh/is_ssh
 
+Host aretha
+  HostName aretha.seas.ucla.edu
+  Port 22
+  User asm
+  IdentityFile ~/.ssh/is_ssh
+
 Host *
    UseKeychain yes
    AddKeysToAgent yes

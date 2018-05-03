@@ -14,6 +14,9 @@ if hash tlmgr 2>/dev/null; then
   tlmgr update --all --reinstall-forcibly-removed
 fi
 
+ssh aretha 'sudo apt update; sudo apt upgrade' 
+ssh winet 'sudo apt update; sudo apt upgrade' 
+
 brew update
 
 brew bundle --global
