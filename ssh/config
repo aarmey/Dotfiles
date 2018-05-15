@@ -15,7 +15,7 @@ Host aretha
   HostName aretha.seas.ucla.edu
   Port 22
   User asm
-  IdentityFile ~/.ssh/is_ssh
+  IdentityFile ~/.ssh/id_rsa
 
 Host *
    UseKeychain yes

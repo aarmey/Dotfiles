@@ -25,6 +25,7 @@ brew 'sundials', args: ['without-mpi']
 brew 'mas'
 brew 'nmap'
 brew 'mosh'
+brew 'eigen'
 brew 'r'
 brew 'languagetool'
 brew 'pandoc'
