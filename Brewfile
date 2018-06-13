@@ -61,4 +61,3 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Tweetbot', id: 557168941
 mas 'XCode', id: 497799835
-mas 'feedly. Read more, know more.', id: 865500966
