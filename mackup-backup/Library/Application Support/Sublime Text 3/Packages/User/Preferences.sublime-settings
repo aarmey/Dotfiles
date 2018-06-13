@@ -16,7 +16,9 @@
 	],
 	"open_externally_patterns":
 	[
-		"*.pdf"
+		"*.pdf",
+		"*.doc",
+		"*.docx"
 	],
 	"theme": "Boxy Yesterday.sublime-theme",
 	"theme_font_sm": true
