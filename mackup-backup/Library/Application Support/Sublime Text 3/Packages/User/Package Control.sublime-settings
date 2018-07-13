@@ -31,7 +31,7 @@
 		"SublimeLinter-annotations",
 		"SublimeLinter-cppcheck",
 		"SublimeLinter-pyflakes",
-		"Terminal",
+		"TerminalView",
 		"WordCount"
 	]
 }
