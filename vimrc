@@ -7,6 +7,9 @@ Plug 'https://github.com/nvie/vim-flake8'
 " Git gutter plugin
 Plug 'airblade/vim-gitgutter'
 
+" vim-multiple-cursors
+Plug 'terryma/vim-multiple-cursors'
+
 " Command line colors
 Plug 'itchyny/lightline.vim'
 
