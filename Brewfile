@@ -55,6 +55,7 @@ cask 'slack'
 cask 'sublime-text'
 cask 'texpad'
 mas '1Password', id: 443987910
+mas 'AdBlock', id: 1402042596
 mas 'Day One', id: 1055511498
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
