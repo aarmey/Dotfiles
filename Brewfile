@@ -19,6 +19,7 @@ brew 'cppunit'
 brew 'brewsci/science/cmdstan'
 brew 'mackup'
 brew 'gpg'
+brew 'tig'
 brew 'lcov'
 brew 'poppler'
 brew 'sundials', args: ['without-mpi']
@@ -48,7 +49,6 @@ cask 'firefox'
 cask 'omnifocus'
 cask 'dropbox'
 cask 'omniplan'
-cask 'smartgit'
 cask 'box-edit'
 cask 'box-sync'
 cask 'skype'
@@ -61,5 +61,4 @@ mas 'Day One', id: 1055511498
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
-mas 'Tweetbot', id: 557168941
 mas 'XCode', id: 497799835
