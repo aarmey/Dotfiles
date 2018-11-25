@@ -7,6 +7,7 @@ brew 'bfg'
 brew 'duti'
 brew 'fdupes'
 brew 'fish'
+brew 'nnn'
 brew 'git'
 brew 'grep', args: ['with-default-names']
 brew 'git-lfs'
