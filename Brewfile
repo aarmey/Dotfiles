@@ -10,6 +10,8 @@ brew 'fish'
 brew 'nnn'
 brew 'git'
 brew 'grep', args: ['with-default-names']
+brew 'cmake'
+brew 'vim', args: ['with-lua', 'with-override-system-vi']
 brew 'git-lfs'
 brew 'doxygen'
 brew 'hdf5'
