@@ -27,4 +27,8 @@ brew cleanup
 
 mas upgrade
 
+vim +PlugUpgrade +qall
+
+vim +PlugUpdate +qall
+
 rm -rf ~/.Trash/*
