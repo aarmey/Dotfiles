@@ -59,6 +59,7 @@ cask 'box-sync'
 cask 'skype'
 cask 'slack'
 cask 'sublime-text'
+cask 'sublime-merge'
 cask 'texpad'
 mas '1Password', id: 443987910
 mas 'AdBlock', id: 1402042596
