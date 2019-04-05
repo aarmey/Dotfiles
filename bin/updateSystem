@@ -8,14 +8,19 @@ duti -s io.nteract.nteract ipynb all
 duti -s com.sublimetext.3 sublime-workspace all
 duti -s com.sublimetext.3 sublime-project all
 duti -s com.sublimetext.3 coffee all
+duti -s com.apple.Preview pdf all
 
 if hash tlmgr 2>/dev/null; then
   tlmgr update --self
   tlmgr update --all --reinstall-forcibly-removed
 fi
 
-ssh aretha 'sudo apt update; sudo apt upgrade' 
-ssh winet 'sudo apt update; sudo apt upgrade' 
+ssh aretha 'sudo apt update; sudo apt upgrade'
+ssh aretha 'omf update'
+ssh aretha 'vim +PlugUpgrade +qall'
+ssh aretha 'vim +PlugUpdate +qall'
+ssh winet 'sudo apt update; sudo apt upgrade'
+ssh winet 'omf update'
 
 brew update
 
@@ -32,3 +37,5 @@ vim +PlugUpgrade +qall
 vim +PlugUpdate +qall
 
 rm -rf ~/.Trash/*
+
+fish -c "omf update"
