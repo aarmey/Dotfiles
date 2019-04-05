@@ -60,7 +60,7 @@ cask 'skype'
 cask 'slack'
 cask 'sublime-text'
 cask 'texpad'
-mas '1Password', id: 443987910
+mas '1Password', id: 1333542190
 mas 'AdBlock', id: 1402042596
 mas 'Day One', id: 1055511498
 mas 'Keynote', id: 409183694
