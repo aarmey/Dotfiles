@@ -1,4 +1,5 @@
 set -gx PATH ~/.bin $PATH
+set -gx PATH ~/Library/TinyTeX/bin/x86_64-darwin $PATH
 
 alias selfcontrol "sudo /Applications/SelfControl.app/Contents/MacOS/org.eyebeam.SelfControl (id -u (whoami)) --install"
 alias sharingOn "sudo  /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -on -configure -allowAccessFor -allUsers -configure -restart -agent -privs -all"
