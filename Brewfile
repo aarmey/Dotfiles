@@ -3,6 +3,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'thoughtbot/formulae'
 tap 'brewsci/science'
+tap 'homebrew/cask-fonts'
 brew 'bfg'
 brew 'duti'
 brew 'fdupes'
@@ -61,6 +62,7 @@ cask 'skype'
 cask 'slack'
 cask 'sublime-text'
 cask 'texpad'
+cask 'font-anonymous-pro'
 mas '1Password', id: 1333542190
 mas 'AdBlock', id: 1402042596
 mas 'Day One', id: 1055511498
