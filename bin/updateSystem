@@ -16,11 +16,9 @@ if hash tlmgr 2>/dev/null; then
 fi
 
 ssh aretha 'sudo apt update; sudo apt upgrade'
-ssh aretha 'omf update'
 ssh aretha 'vim +PlugUpgrade +qall'
 ssh aretha 'vim +PlugUpdate +qall'
 ssh winet 'sudo apt update; sudo apt upgrade'
-ssh winet 'omf update'
 
 brew update
 
