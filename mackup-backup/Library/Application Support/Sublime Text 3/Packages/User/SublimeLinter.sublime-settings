@@ -3,6 +3,10 @@
 	"linters": {
         "flake8": {
             "python": "/usr/local/bin/python3"
+        },
+        "annotations": {
+            "warnings": ["TODO", "CITE", "NOTE"],
+            "errors": ["XXX", "FIXME"]
         }
     },
 }

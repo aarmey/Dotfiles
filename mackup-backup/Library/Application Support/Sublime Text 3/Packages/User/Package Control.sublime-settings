@@ -14,6 +14,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AutoPEP8",
 		"Boxy Theme",
 		"Coffee Color Scheme",
 		"Dockerfile Syntax Highlighting",
@@ -21,12 +22,11 @@
 		"EasyClangComplete",
 		"Julia",
 		"LanguageTool",
-		"Markdown Extended",
+		"MarkdownEditing",
 		"Non Text Files",
 		"Package Control",
 		"ProjectManager",
 		"SideBarEnhancements",
-		"Stan",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-cppcheck",
