@@ -12,8 +12,8 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"open_externally_patterns":
 	[
