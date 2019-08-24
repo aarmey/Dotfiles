@@ -16,11 +16,7 @@
 	[
 		"A File Icon",
 		"AutoPEP8",
-		"Boxy Theme",
-		"Coffee Color Scheme",
 		"Dockerfile Syntax Highlighting",
-		"DoxyDoxygen",
-		"EasyClangComplete",
 		"Julia",
 		"LanguageTool",
 		"MarkdownEditing",
@@ -30,9 +26,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
-		"SublimeLinter-cppcheck",
 		"SublimeLinter-pyflakes",
-		"TerminalView",
 		"WordCount"
 	]
 }
