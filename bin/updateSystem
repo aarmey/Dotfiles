@@ -38,3 +38,5 @@ vim +PlugUpgrade +qall
 vim +PlugUpdate +qall
 
 rm -rf ~/.Trash/*
+
+pip3 install --upgrade nbopen scipy numpy pandas scikit-learn
