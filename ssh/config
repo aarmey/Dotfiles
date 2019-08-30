@@ -17,6 +17,12 @@ Host aretha
   User asm
   IdentityFile ~/.ssh/id_rsa
 
+Host ariana
+  HostName ariana.seas.ucla.edu
+  Port 22
+  User asm
+  IdentityFile ~/.ssh/id_rsa
+
 Host hoffman
   HostName hoffman2.idre.ucla.edu
   Port 22
