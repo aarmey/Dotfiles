@@ -12,7 +12,6 @@ brew 'grep', args: ['with-default-names']
 brew 'cmake'
 brew 'vim'
 brew 'git-lfs'
-brew 'hdf5'
 brew 'graphviz'
 brew 'hub'
 brew 'sshfs'
