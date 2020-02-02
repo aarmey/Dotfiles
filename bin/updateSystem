@@ -20,7 +20,6 @@ ssh aretha 'julia -e "using Pkg; Pkg.update(); Pkg.gc()"'
 ssh aretha 'vim +PlugUpgrade +qall'
 ssh aretha 'vim +PlugUpdate +qall'
 ssh winet 'sudo apt update; sudo apt upgrade'
-ssh ariana 'sudo apt update; sudo apt upgrade'
 
 brew update
 
