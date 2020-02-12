@@ -1,0 +1,27 @@
+{
+	"clients":
+	{
+		"julials":
+		{
+			"command":
+			[
+				"bash",
+				"~/.julia/packages/LanguageServer/XXTJb/contrib/languageserver.sh"
+			],
+			"enabled": true,
+			"languageId": "julia",
+			"scopes":
+			[
+				"source.julia"
+			],
+			"settings":
+			{
+				"runlinter": true
+			},
+			"syntaxes":
+			[
+				"Packages/Julia/Julia.sublime-syntax"
+			]
+		}
+	}
+}
