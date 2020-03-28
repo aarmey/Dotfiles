@@ -57,7 +57,6 @@ cask 'font-open-sans'
 cask 'font-roboto'
 mas '1Password', id: 1333542190
 mas 'AdBlock', id: 1402042596
-mas 'Day One', id: 1055511498
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
