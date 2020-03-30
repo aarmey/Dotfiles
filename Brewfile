@@ -54,6 +54,7 @@ cask 'texpad'
 cask 'font-anonymous-pro'
 cask 'font-open-sans'
 cask 'font-roboto'
+cask 'font-input'
 mas '1Password', id: 1333542190
 mas 'AdBlock', id: 1402042596
 mas 'Keynote', id: 409183694
