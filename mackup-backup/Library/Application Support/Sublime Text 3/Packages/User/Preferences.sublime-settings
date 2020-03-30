@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Celeste.sublime-color-scheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -8,8 +8,8 @@
 		"CVS",
 		".texpadtmp"
 	],
-	"font_face": "Source Code Pro",
-	"font_size": 12,
+	"font_face": "Input Sans",
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"Markdown",
