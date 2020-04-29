@@ -26,6 +26,9 @@ Plug 'Valloric/YouCompleteMe'
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+
+" Julia Vim
+Plug 'JuliaEditorSupport/julia-vim'
 call plug#end()
 
 
