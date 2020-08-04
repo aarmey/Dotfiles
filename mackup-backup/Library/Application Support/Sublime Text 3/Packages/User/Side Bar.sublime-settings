@@ -1,9 +1,0 @@
-{
-	//one of this list: firefox, firefox-developer-edition, chrome, canary, chromium, opera, safari, ie, edge
-	"default_browser": "safari",
-
-	//any of this list: firefox, firefox-developer-edition, chrome, canary, chromium, opera, safari, ie, edge
-	"open_all_browsers": [
-		"safari"
-	]
-}
