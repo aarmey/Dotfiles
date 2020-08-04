@@ -1,7 +1,4 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
+# Path changes
 export ZSH="/Users/asm/.oh-my-zsh"
 export PATH=~/.bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
@@ -9,14 +6,11 @@ export PATH="/usr/local/sbin:$PATH"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
 # Disable permissions check autocompletion directory
 ZSH_DISABLE_COMPFIX="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
 
 plugins=(git colorize pip python osx)
 
@@ -24,16 +18,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='subl'
+  export EDITOR='code'
 fi
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
